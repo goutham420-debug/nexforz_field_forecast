@@ -1,0 +1,15 @@
+{
+  "test_mae_kg": 0.417,
+  "test_rmse_kg": 0.5345,
+  "test_r2": 0.4287,
+  "train_mae_kg": 0.4148,
+  "train_rmse_kg": 0.5189,
+  "train_r2": 0.3979,
+  "coefficients": {
+    "temperature": -2.2682,
+    "humidity": -1.3755,
+    "co2": -1.2199,
+    "temp_humid_interaction": 4.5964,
+    "intercept": 17.5115
+  }
+}
