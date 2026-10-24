@@ -1,0 +1,25 @@
+{
+  "linear": {
+    "cv_mae": 0.4427,
+    "test_mae": 0.417,
+    "test_rmse": 0.5345,
+    "test_r2": 0.4287
+  },
+  "rf_default": {
+    "cv_mae": 0.4545,
+    "test_mae": 0.4414,
+    "test_rmse": 0.5555,
+    "test_r2": 0.383
+  },
+  "rf_tuned": {
+    "cv_mae": 0.438,
+    "test_mae": 0.4277,
+    "test_rmse": 0.5552,
+    "test_r2": 0.3836,
+    "best_params": {
+      "max_depth": 3,
+      "min_samples_leaf": 1,
+      "n_estimators": 50
+    }
+  }
+}
